@@ -9,9 +9,10 @@ import { Link } from "wouter";
 import { ChevronDown, Award, Globe, Users, BookOpen, Star, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import HERO_IMG from "../assets/FullSizeRender(17).webp";
 
 // Image URLs from real culinary photos
-const HERO_IMG = "/assets/FullSizeRender(17)_1d9f01b3.webp";
+
 const BAKING_CLASS_IMG = "/assets/FullSizeRender(5)_cb7d7237.webp";
 const PASTRY_IMG = "/assets/pastry-tarts-01.webp";
 const CHEF_IMG = "/assets/IMG_6926(1)_5f68f251.webp";
