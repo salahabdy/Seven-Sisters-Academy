@@ -151,16 +151,15 @@ export default function About() {
             {/* Chef video */}
             <div className="relative">
               <div className="relative overflow-hidden">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  className="w-full h-[560px] object-cover object-center"
-                >
-                  <source src={AcademyVideo} type="video/mp4" />
-                  src={BunsBg}
-                </video>
+               <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full h-[560px] object-cover object-center"
+  src={AcademyVideo}
+/>
+                src={BunsBg}
                 <div className="absolute inset-0 bg-gradient-to-t from-[oklch(0.14_0.05_150/0.5)] to-transparent" />
               </div>
               {/* Decorative elements */}
