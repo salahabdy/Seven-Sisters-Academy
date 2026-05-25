@@ -10,18 +10,21 @@ import { ChevronDown, Award, Globe, Users, BookOpen, Star, ArrowRight, ChevronLe
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HERO_IMG from "../assets/FullSizeRender(17).webp";
+import HERO_IMG from "../assets/FullSizeRender(5).webp";
+import HERO_IMG from "../assets/FullSizeRender(6).webp";
+import HERO_IMG from "../assets/FullSizeRender(8).webp";
+import HERO_IMG from "../assets/FullSizeRender(9).webp";
+import HERO_IMG from  "../assets/FullSizeRender(10).webp";
+import HERO_IMG from "../assets/FullSizeRender(12).webp";
+import HERO_IMG from "../assets/FullSizeRender(13).webp";
+import HERO_IMG from "/assets/pastry-tarts-01.webp";
+import HERO_IMG from "/assets/FullSizeRender(5)_cb7d7237.webp";
+import HERO_IMG from "/assets/IMG_6926(1)_5f68f251.webp";
 
 // Image URLs from real culinary photos
 
-const BAKING_CLASS_IMG = "/assets/FullSizeRender(5)_cb7d7237.webp";
-const PASTRY_IMG = "/assets/pastry-tarts-01.webp";
-const CHEF_IMG = "/assets/IMG_6926(1)_5f68f251.webp";
-const GALLERY_IMG_1 = "/assets/FullSizeRender(6).webp";
-const GALLERY_IMG_2 = "/assets/FullSizeRender(8).webp";
-const GALLERY_IMG_3 = "/assets/FullSizeRender(9).webp";
-const GALLERY_IMG_4 = "/assets/FullSizeRender(10).webp";
-const GALLERY_IMG_5 = "/assets/FullSizeRender(12).webp";
-const GALLERY_IMG_6 = "/assets/FullSizeRender(13).webp";
+
+
 
 const stats = [
   { value: "1000+", label: "Graduates" },
