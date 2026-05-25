@@ -9,10 +9,9 @@ import { Link } from "wouter";
 import { Clock, Award, Users, ArrowRight, ChevronDown, ChevronUp } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-const BAKING_CLASS_IMG = "/assets/FullSizeRender(8).webp";
-const PASTRY_IMG = "/assets/pastry-tarts-01.webp";
-const CUISINE_IMG = "/assets/IMG_9284.webp";
+import BAKING_CLASS_IMG from "../assets/FullSizeRender(8).webp";
+import PASTRY_IMG from "../assets/pastry-tarts-01.webp";
+import CUISINE_IMG from "../assets/IMG_9284.webp";
 
 const categories = ["All", "Baking", "Cuisine"];
 
