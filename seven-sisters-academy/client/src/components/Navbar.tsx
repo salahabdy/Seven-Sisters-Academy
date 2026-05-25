@@ -7,6 +7,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
+import LogoGold from "../assets/logo-gold.png";
 
 const navLinks = [
   { href: "/", label: "Home" },
