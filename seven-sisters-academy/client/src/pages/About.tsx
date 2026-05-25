@@ -8,11 +8,10 @@ import { Link } from "wouter";
 import { ArrowRight, Globe, Award, Heart, Lightbulb, Shield, Leaf } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-const CHEF_IMG = "/assets/IMG_6926(1).webp";
-const BAKING_CLASS_IMG = "/assets/FullSizeRender(5)_cb7d7237.webp";
-const FACULTY_IMG_1 = "/assets/FullSizeRender(4).webp";
-const FACULTY_IMG_2 = "/assets/FullSizeRender.webp";
+import CHEF_IMG from "../assets/IMG_6926(1).webp";
+import BAKING_CLASS_IMG from "../assets/FullSizeRender(5).webp";
+import FACULTY_IMG_1 from "../assets/FullSizeRender(4).webp";
+import FACULTY_IMG_2 from "../assets/FullSizeRender.webp";
 
 const faculty = [
   {
