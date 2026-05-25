@@ -9,10 +9,10 @@ import { ArrowRight, Globe, Award, Heart, Lightbulb, Shield, Leaf } from "lucide
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const CHEF_IMG = "/manus-storage/IMG_6926(1)_5f68f251.webp";
-const BAKING_CLASS_IMG = "/manus-storage/FullSizeRender(5)_cb7d7237.webp";
-const FACULTY_IMG_1 = "/manus-storage/FullSizeRender(4)_99709025.webp";
-const FACULTY_IMG_2 = "/manus-storage/FullSizeRender_656ec8ae.webp";
+const CHEF_IMG = "/assets/IMG_6926(1).webp";
+const BAKING_CLASS_IMG = "/assets/FullSizeRender(5)_cb7d7237.webp";
+const FACULTY_IMG_1 = "/assets/FullSizeRender(4).webp";
+const FACULTY_IMG_2 = "/assets/FullSizeRender.webp";
 
 const faculty = [
   {
@@ -157,10 +157,10 @@ export default function About() {
                   playsInline
                   className="w-full h-[560px] object-cover object-center"
                 >
-                  <source src="/manus-storage/d40217226f3f436a8cb5c58fc45dd9ee_cropped_b75f892b.mp4" type="video/mp4" />
-                  <source src="/manus-storage/d40217226f3f436a8cb5c58fc45dd9ee_cropped_b75f892b.mp4" type="video/quicktime" />
+                  <source src="/assets/academy-video.mp4" type="video/mp4" />
+                  <source src="/assets/academy-video.mp4" type="video/quicktime" />
                   <img
-                    src="/manus-storage/buns-bg_6db06ed3.webp"
+                    src="/assets/buns-bg.webp"
                     alt="Seven Sisters Academy Culinary Creations"
                     className="w-full h-[560px] object-cover object-center"
                   />

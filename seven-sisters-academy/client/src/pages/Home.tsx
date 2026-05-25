@@ -11,16 +11,16 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 // Image URLs from real culinary photos
-const HERO_IMG = "/manus-storage/FullSizeRender(17)_1d9f01b3.webp";
-const BAKING_CLASS_IMG = "/manus-storage/FullSizeRender(5)_cb7d7237.webp";
-const PASTRY_IMG = "/manus-storage/pastry-tarts-01.webp";
-const CHEF_IMG = "/manus-storage/IMG_6926(1)_5f68f251.webp";
-const GALLERY_IMG_1 = "/manus-storage/FullSizeRender(6)_65609ca3.webp";
-const GALLERY_IMG_2 = "/manus-storage/FullSizeRender(8)_5a2bc803.webp";
-const GALLERY_IMG_3 = "/manus-storage/FullSizeRender(9)_8886d995.webp";
-const GALLERY_IMG_4 = "/manus-storage/FullSizeRender(10)_0fb13f7e.webp";
-const GALLERY_IMG_5 = "/manus-storage/FullSizeRender(12)_1f44154e.webp";
-const GALLERY_IMG_6 = "/manus-storage/FullSizeRender(13)_d669621f.webp";
+const HERO_IMG = "/assets/FullSizeRender(17)_1d9f01b3.webp";
+const BAKING_CLASS_IMG = "/assets/FullSizeRender(5)_cb7d7237.webp";
+const PASTRY_IMG = "/assets/pastry-tarts-01.webp";
+const CHEF_IMG = "/assets/IMG_6926(1)_5f68f251.webp";
+const GALLERY_IMG_1 = "/assets/FullSizeRender(6).webp";
+const GALLERY_IMG_2 = "/assets/FullSizeRender(8).webp";
+const GALLERY_IMG_3 = "/assets/FullSizeRender(9).webp";
+const GALLERY_IMG_4 = "/assets/FullSizeRender(10).webp";
+const GALLERY_IMG_5 = "/assets/FullSizeRender(12).webp";
+const GALLERY_IMG_6 = "/assets/FullSizeRender(13).webp";
 
 const stats = [
   { value: "1000+", label: "Graduates" },
@@ -481,7 +481,7 @@ export default function Home() {
       {/* ── PASTRY SHOWCASE ── */}
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/FullSizeRender_78b2b367.webp" alt="Artisan pastries" className="w-full h-full object-cover" />
+          <img src="/assets/FullSizeRender.webp" alt="Artisan pastries" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[oklch(0.14_0.05_150/0.75)]" />
         </div>
         <div className="container relative z-10 text-center">

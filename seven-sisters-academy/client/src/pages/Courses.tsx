@@ -10,9 +10,9 @@ import { Clock, Award, Users, ArrowRight, ChevronDown, ChevronUp } from "lucide-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const BAKING_CLASS_IMG = "/manus-storage/FullSizeRender(8)_75e63141.webp";
-const PASTRY_IMG = "/manus-storage/pastry-tarts-01.webp";
-const CUISINE_IMG = "/manus-storage/IMG_9284_zoomed_out_630d039d.webp";
+const BAKING_CLASS_IMG = "/assets/FullSizeRender(8).webp";
+const PASTRY_IMG = "/assets/pastry-tarts-01.webp";
+const CUISINE_IMG = "/assets/IMG_9284.webp";
 
 const categories = ["All", "Baking", "Cuisine"];
 
