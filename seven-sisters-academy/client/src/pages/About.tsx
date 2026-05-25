@@ -12,6 +12,8 @@ import CHEF_IMG from "../assets/IMG_6926(1).webp";
 import BAKING_CLASS_IMG from "../assets/FullSizeRender(5).webp";
 import FACULTY_IMG_1 from "../assets/FullSizeRender(4).webp";
 import FACULTY_IMG_2 from "../assets/FullSizeRender.webp";
+import AcademyVideo from "../assets/academy-video.mp4";
+import BunsBg from "../assets/buns-bg.webp";
 
 const faculty = [
   {
@@ -156,13 +158,8 @@ export default function About() {
                   playsInline
                   className="w-full h-[560px] object-cover object-center"
                 >
-                  <source src="/assets/academy-video.mp4" type="video/mp4" />
-                  <source src="/assets/academy-video.mp4" type="video/quicktime" />
-                  <img
-                    src="/assets/buns-bg.webp"
-                    alt="Seven Sisters Academy Culinary Creations"
-                    className="w-full h-[560px] object-cover object-center"
-                  />
+                  <source src={AcademyVideo} type="video/mp4" />
+                  src={BunsBg}
                 </video>
                 <div className="absolute inset-0 bg-gradient-to-t from-[oklch(0.14_0.05_150/0.5)] to-transparent" />
               </div>
