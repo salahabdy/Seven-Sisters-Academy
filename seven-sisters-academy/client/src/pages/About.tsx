@@ -13,7 +13,6 @@ import BAKING_CLASS_IMG from "../assets/FullSizeRender(5).webp";
 import FACULTY_IMG_1 from "../assets/FullSizeRender(4).webp";
 import FACULTY_IMG_2 from "../assets/FullSizeRender.webp";
 import AcademyVideo from "../assets/academy-video.mp4";
-import BunsBg from "../assets/buns-bg.webp";
 
 const faculty = [
   {
@@ -159,7 +158,6 @@ export default function About() {
   className="w-full h-[560px] object-cover object-center"
   src={AcademyVideo}
 />
-                src={BunsBg}
                 <div className="absolute inset-0 bg-gradient-to-t from-[oklch(0.14_0.05_150/0.5)] to-transparent" />
               </div>
               {/* Decorative elements */}
