@@ -88,7 +88,19 @@ const handleSubmit = async (e: React.FormEvent) => {
   setLoading(true);
 
   try {
-    console.log(form);
+    await fetch("/api/send-email", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+    fullName: `${form.firstName} ${form.lastName}`,
+    email: form.email,
+    phone: form.phone,
+    programInterest: form.program,
+    message: form.message || "Inquiry about the program",
+  }),
+});
 
     toast.success("Application submitted successfully!");
 
