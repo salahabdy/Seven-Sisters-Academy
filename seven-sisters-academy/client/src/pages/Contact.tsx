@@ -77,39 +77,41 @@ export default function Contact() {
 
   const submitMutation = trpc.contact.submit.useMutation();
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!form.firstName || !form.email || !form.program) {
-      toast.error("Please fill in all required fields.");
-      return;
-    }
-    setLoading(true);
-    try {
-  console.log(form);
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
 
-  toast.success("Application submitted successfully!");
+  if (!form.firstName || !form.email || !form.program) {
+    toast.error("Please fill in all required fields.");
+    return;
+  }
 
-  setSubmitted(true);
+  setLoading(true);
 
-  setForm({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    nationality: "",
-    program: "",
-    intake: null,
-    message: "",
-    experience: "beginner",
-  });
-}
-    } catch (error) {
-  console.error(error);
-  toast.error("Submission failed");
-} finally {
-  setLoading(false);
-}
-  };
+  try {
+    console.log(form);
+
+    toast.success("Application submitted successfully!");
+
+    setSubmitted(true);
+
+    setForm({
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      nationality: "",
+      program: "",
+      intake: null,
+      message: "",
+      experience: "beginner",
+    });
+  } catch (error) {
+    console.error(error);
+    toast.error("Submission failed");
+  } finally {
+    setLoading(false);
+  }
+};
 
   return (
     <div className="min-h-screen bg-[oklch(0.20_0.055_150)]">
