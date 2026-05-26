@@ -5,7 +5,7 @@
    ============================================================= */
 
 import { useState } from "react";
-import { MapPin, Phone, Mail, Clock, Send, CheckCircle, Calendar, Loader2 } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Send, CheckCircle, Calendar} from "lucide-react";
 import { toast } from "sonner";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
