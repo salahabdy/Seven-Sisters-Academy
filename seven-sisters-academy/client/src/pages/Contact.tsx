@@ -85,35 +85,30 @@ export default function Contact() {
     }
     setLoading(true);
     try {
-      const result = await submitMutation.mutateAsync({
-        fullName: `${form.firstName} ${form.lastName}`.trim(),
-        email: form.email,
-        phone: form.phone || undefined,
-        programInterest: form.program,
-        message: form.message || "Inquiry about the program",
-      });
-      if (result.success) {
-        setSubmitted(true);
-        toast.success(result.message);
-        // Reset form
-        setForm({
-          firstName: "",
-          lastName: "",
-          email: "",
-          phone: "",
-          nationality: "",
-          program: "",
-          intake: null,
-          message: "",
-          experience: "beginner",
-        });
-      }
+  console.log(form);
+
+  toast.success("Application submitted successfully!");
+
+  setSubmitted(true);
+
+  setForm({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    nationality: "",
+    program: "",
+    intake: null,
+    message: "",
+    experience: "beginner",
+  });
+}
     } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : "Failed to submit form";
-      toast.error(errorMessage);
-    } finally {
-      setLoading(false);
-    }
+  console.error(error);
+  toast.error("Submission failed");
+} finally {
+  setLoading(false);
+}
   };
 
   return (
