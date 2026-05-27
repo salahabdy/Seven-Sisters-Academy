@@ -25,7 +25,7 @@ import GALLERY_IMG_6 from "../assets/FullSizeRender(13).webp";
 
 
 const stats = [
-  { value: "1000+", label: "Graduates" },
+  { value: "600+", label: "Graduates" },
   { value: "2", label: "Programs" },
 ];
 
