@@ -12,7 +12,6 @@ import CHEF_IMG from "../assets/IMG_6926(1).webp";
 import BAKING_CLASS_IMG from "../assets/FullSizeRender(5).webp";
 import FACULTY_IMG_1 from "../assets/FullSizeRender(4).webp";
 import FACULTY_IMG_2 from "../assets/FullSizeRender.webp";
-import AcademyVideo from "../assets/academy-video.mp4";
 
 const faculty = [
   {
@@ -156,7 +155,7 @@ export default function About() {
   loop
   playsInline
   className="w-full h-[560px] object-cover object-center"
-  src={AcademyVideo}
+  src="/academy-video.mp4"
 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[oklch(0.14_0.05_150/0.5)] to-transparent" />
               </div>
