@@ -42,7 +42,7 @@ export default function Navbar() {
       <div className="container flex items-center justify-between h-40 py-2">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <img src="/assets/logo-gold.png" alt="Seven Sisters Academy" className="h-32 w-auto" />
+          <img src={LogoGold} alt="Seven Sisters Academy" className="h-32 w-auto" />
         </Link>
 
         {/* Desktop Nav */}
