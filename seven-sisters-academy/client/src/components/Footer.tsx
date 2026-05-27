@@ -6,6 +6,7 @@
 
 import { Link } from "wouter";
 import { Instagram, MapPin, Phone, Mail } from "lucide-react";
+import LogoGold from "../assets/logo-gold.png";
 
 // TikTok Icon Component
 const TikTokIcon = ({ size = 15 }) => (
