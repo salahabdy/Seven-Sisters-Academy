@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-5">
-              <img src="/assets/logo-gold.png" alt="Seven Sisters Academy" className="h-32 w-auto" />
+              <img src={LogoGold} alt="Seven Sisters Academy" className="h-32 w-auto" />
             </div>
             <p className="font-body text-sm leading-relaxed text-[oklch(0.65_0.015_80)] mb-6">
               A girls-only culinary school in Nairobi, Kenya, dedicated to empowering women with professional training in baking and international cuisine. Founded in 2024.
