@@ -483,7 +483,7 @@ export default function Home() {
       {/* ── PASTRY SHOWCASE ── */}
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/assets/FullSizeRender.webp" alt="Artisan pastries" className="w-full h-full object-cover" />
+          <img src="/FullSizeRender.webp" alt="Artisan pastries" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[oklch(0.14_0.05_150/0.75)]" />
         </div>
         <div className="container relative z-10 text-center">
